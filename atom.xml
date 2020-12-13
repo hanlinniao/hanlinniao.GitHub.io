@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hanlinniao.github.io</id>
+    <title>Gridea</title>
+    <updated>2020-12-13T02:57:29.788Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hanlinniao.github.io"/>
+    <link rel="self" href="https://hanlinniao.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://hanlinniao.github.io/images/avatar.png</logo>
+    <icon>https://hanlinniao.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[testing😁]]></title>
+        <id>https://hanlinniao.github.io/post/testing/</id>
+        <link href="https://hanlinniao.github.io/post/testing/">
+        </link>
+        <updated>2020-12-13T02:52:34.000Z</updated>
+        <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=157276&auto=1&height=66"></iframe>  \   
+<p><img src="https://raw.githubusercontent.com/hanlinniao/hanlinniao.GitHub.io/master/%E8%97%8F%E5%AD%97%E4%BA%8C%E7%BB%B4%E7%A0%81.png" alt="藏字二维码.png (236×236) (raw.githubusercontent.com)" loading="lazy">  \</p>
+<iframe src="//player.bilibili.com/player.html?aid=453592&bvid=BV1Xx411F7ro&cid=687769&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>   \   
+<iframe src="//player.bilibili.com/player.html?aid=500366073&bvid=BV1jK411V7Bs&cid=257690593&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  \   
+<iframe src="https://www.tooleyes.com/embed/weather_forecast.html" width="100%" height="1000px;" scrolling="no" style="border:0px;"></iframe>  \
+<iframe src="https://www.tooleyes.com/embed/xs_drop.html" width="100%" height="450px;" scrolling="no" style="border:0px;"></iframe>  \  
+<iframe src="https://bt.byr.cn/fun.php?action=view" width="1110" height="900" frameborder="0" name="funbox" marginwidth="0" marginheight="0"></iframe>  \
+]]></content>
+    </entry>
+</feed>
