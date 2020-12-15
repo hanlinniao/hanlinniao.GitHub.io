@@ -1,112 +1,145 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-	<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,minimal-ui" />
-    <title>crazyhan</title>
-<link rel='stylesheet' id='puma-css'  href='https://hanlinniao.github.io/styles/main.css' type='text/css' media='screen' />
-<link rel='stylesheet' id='puma-css'  href='https://at.alicdn.com/t/font_1306644_jwtuc2zzbrd.css' media='screen' />
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<script type='text/javascript' src='https://hanlinniao.github.io/media/scripts/jquery.js'></script>
-<script type='text/javascript' src='https://hanlinniao.github.io/media/scripts/jquery-migrate.min.js'></script>
-        <script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
-         <script >hljs.initHighlightingOnLoad();</script>
-         
-</head>
-<body class="page page-id-14 page-template page-template-tpl page-template-tpl-archive page-template-tpltpl-archive-php">
-	<!--加入跟随滑动的顶部-->
-<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<h1 class="site-title">
-				<a href="https://hanlinniao.github.io" title="crazyhan">crazyhan</a>
-			</h1>
-		</div>
+<html>
+  <head>
+    <meta charset="utf-8" >
 
-		<a class="primary-nav-trigger" href="javascript:void(0)">
-			<span class="menu-icon"></span>
-		</a>
-		
-	</header>
-	<div class="site-navigation-wrapper">
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<ul class="primary-nav">
-                    
-				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="首页" href="/">首页</a></li>
-                
-				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="归档" href="/archives">归档</a></li>
-                
-				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="标签" href="/tags">标签</a></li>
-                
-				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="关于" href="/post/about">关于</a></li>
-                
-	
-			</ul>
-		</nav>			
-	</div>
-	<!--跟随滑动的顶部结束-->
-	<div class="surface-content">    <main class="main-content">
-        <section class="section-body">
-                            <header class="section-header u-textAlignCenter">
-                    <h2 class="grap--h2">文章归档</h2>
-                </header>
-                        <div class="fancy-archive">
-								
-								
-			<h3 class="archive-year">2020</h3>
-								
+<title>文章归档 | crazyhan</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://hanlinniao.github.io/favicon.ico?v=1608002571730">
+<link rel="stylesheet" href="https://hanlinniao.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="你有多久，没停下来，抬头仰望星空，巡视浩瀚宇宙，感受光与影，察看云与月，呼吸风与雾，让每一寸的手掌之上都有雨的跳跃。一滴一落，一叶一摇，汇聚自然变换、无穷风情，随风而起，追雨而去，止于悦耳之音，才觉薄雾细雨，造就浅浅足印。原伞之用来遮雨，今昔觉知阻挡了一眼春冬之景。">
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://hanlinniao.github.io">
+        <img src="https://hanlinniao.github.io/images/avatar.png?v=1608002571730" class="site-logo">
+        <h1 class="site-title">crazyhan</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-			<ul class="fancy-ul">
-
-				<li><a href="https://hanlinniao.github.io/post/testing/">testing😁</a> <em>2020-12-13</em></li>
-				
-			</ul>
-			
-			
-  
-                        </div>
-			</section>
-    </main>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      你有多久，没停下来，抬头仰望星空，巡视浩瀚宇宙，感受光与影，察看云与月，呼吸风与雾，让每一寸的手掌之上都有雨的跳跃。一滴一落，一叶一摇，汇聚自然变换、无穷风情，随风而起，追雨而去，止于悦耳之音，才觉薄雾细雨，造就浅浅足印。原伞之用来遮雨，今昔觉知阻挡了一眼春冬之景。
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://hanlinniao.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
 </div>
-	<footer class="site-footer u-textAlignCenter">
-    	<div class="footer-branding">
-            <a href="https://hanlinniao.github.io" title="crazyhan">crazyhan</a>
-									<p class="site-description">crazyhan</p>
-			         </div>
-		 <hr />
-		 <div class="social-links">
-		                       
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-                            
-                           
-				</div>
-        <div class="footer-copy">
-                Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+
+          <h2 class="archives-title">文章归档</h2>
+          <div class="archives-container">
+            
+              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2020</h2>
+              
+                
+                  <article class="post">
+                    <a href="https://hanlinniao.github.io/post/testing/">
+                      <h2 class="post-title">
+                        testing😁
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+            
+          </div>
+
+          <div class="pagination-container">
+  
+  
+</div>
+
         </div>
+      </div>
+    </div>
 
-    </footer>
-	<div class="back-to-top u-hide" onclick="backToTop();"><i class="iconfont icon-xiangshang"></i></div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-<script type='text/javascript' src='https://hanlinniao.github.io/media/scripts/main.js'></script>
-</body>
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
 </html>
